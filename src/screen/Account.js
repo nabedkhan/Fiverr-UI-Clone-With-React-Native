@@ -41,7 +41,7 @@ const Account = () => {
           </View>
         </View>
 
-        <View style={{ paddingTop: 40, flex: 1 }}>
+        <View style={{ paddingTop: 20, flex: 1 }}>
           <MyFiverr />
         </View>
       </View>
@@ -94,15 +94,15 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
     elevation: 4,
     flexDirection: "row",
+    alignItems: "center",
     justifyContent: "space-between",
-    margin: 20,
-    paddingVertical: 15,
-    paddingHorizontal: 15,
+    paddingLeft: 15,
+    paddingRight: 5,
     borderRadius: 7,
     position: "absolute",
     width: "100%",
-    left: -10,
-    bottom: -50,
+    left: 10,
+    bottom: -22,
   },
 });
 
